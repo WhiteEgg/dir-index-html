@@ -1,10 +1,10 @@
 {
   "author": "lgierth",
   "bugs": {
-    "url": "https://github.com/ipfs/dir-index-html"
+    "url": "https://github.com/TRON-US/dir-index-html"
   },
   "gx": {
-    "dvcsimport": "github.com/ipfs/dir-index-html",
+    "dvcsimport": "github.com/TRON-US/dir-index-html",
     "goversion": "1.5.2"
   },
   "gxDependencies": [],

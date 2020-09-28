@@ -10,7 +10,7 @@ import (
 
 const templateFile = "../dir-index.html"
 
-// Copied from go-ipfs/core/corehttp/gateway_indexPage.go
+// Copied from go-btfs/core/corehttp/gateway_indexPage.go
 type listingTemplateData struct {
 	Listing  []directoryItem
 	Path     string
