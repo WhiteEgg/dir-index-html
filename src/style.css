@@ -136,7 +136,7 @@ td {
 	white-space:nowrap
 }
 
-.ipfs-hash {
+.btfs-hash {
 	color:#7f8491;
 	font-family:monospace
 }
@@ -155,7 +155,7 @@ td {
 		display:none
 	}
 	#content-header,
-	.ipfs-hash,
+	.btfs-hash,
 	body {
 		color:#000
 	}
