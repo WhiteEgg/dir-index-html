@@ -80,7 +80,7 @@ func main() {
 		}
 		listingTemplate, err := template.New("dir-index.html").Funcs(template.FuncMap{
 			"iconFromExt": func(name string) string {
-				return "ipfs-_blank" // place-holder
+				return "btfs-_blank" // place-holder
 			},
 			"urlEscape": func(rawUrl string) string {
 				pathUrl := url.URL{Path: rawUrl}
