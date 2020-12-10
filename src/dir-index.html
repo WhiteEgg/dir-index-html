@@ -81,7 +81,7 @@
         </td>
         <td class="no-linebreak">
           {{ if .Hash }}
-          <a class="btfs-hash" href="{{ $root.GatewayURL }}/btfs/{{ .Hash | urlEscape }}">
+          <a class="btfs-hash" href={{ if $root.DNSLink }}"https://cid.btfs.io/#{{ .Hash | urlEscape}}" target="_blank" rel="noreferrer noopener"{{ else }}"{{ $root.GatewayURL }}/btfs/{{ .Hash | urlEscape}}?filename={{ .Name | urlEscape }}"{{ end }}>
             {{ .ShortHash }}
           </a>
           {{ end }}
